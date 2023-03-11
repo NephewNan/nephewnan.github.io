@@ -4,14 +4,25 @@
 </head>
 <body>
 
-
+<h1>Info letter</h1>
+  <p>content</p>
+<h1>Consent letter</h1>
+  <p>content</p>
+  <button type="button"
+    onclick="document.getElementById('demo').style.visibility = "hidden">
+    Click me if you give your consent.</button>
+  <button type="button"
+    onclick="document.getElementById('demo').style.visibility = "visible">
+    Click me if you withhold your consent.</button>
 
 <h1>The questionnaire</h1>
 <iframe src="https://uva.fra1.qualtrics.com/jfe/form/SV_6fY2bQ2CBslU5Rc" height="600" width="900" title="questionnaire"></iframe>
 
+<div id="demo">
 <h1>LLAMA_E test</h1>
 <iframe src="https://www.lognostics.co.uk/beta/LLAMA_E3/LLAMA_E3.htm" height="600" width="900" title="LLAMA_E"></iframe>
 <p>Please remember to fill the score in the questionnaire above </p>
+</div>  
 
 <h1>The End</h1>
 </body>
